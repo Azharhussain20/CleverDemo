@@ -243,7 +243,6 @@
 		CB06A2ED26259B46007F635D /* UIApplicationDelegate+CleverPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplicationDelegate+CleverPush.h"; sourceTree = "<group>"; };
 		CB06A2EE26259B46007F635D /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 		CB06A2EF26259B46007F635D /* CPAppBannerStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAppBannerStatus.h; sourceTree = "<group>"; };
-		CB06A2F026259B46007F635D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB06A2F126259B46007F635D /* CPAppBannerButtonBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAppBannerButtonBlock.h; sourceTree = "<group>"; };
 		CB06A2F226259B46007F635D /* CPTranslate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTranslate.h; sourceTree = "<group>"; };
 		CB06A2F326259B46007F635D /* CPAppBannerBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAppBannerBackground.h; sourceTree = "<group>"; };
@@ -413,7 +412,6 @@
 				CB06A2C526259B46007F635D /* UIControl+CPBlockActions.m */,
 				CB06A29F26259B46007F635D /* UIImageView+CleverPush.m */,
 				CB06A2DC26259B46007F635D /* UNUserNotificationCenter+CleverPush.m */,
-				CB06A2F026259B46007F635D /* Info.plist */,
 				CB06A2A226259B46007F635D /* DWAlertController */,
 			);
 			path = CleverPush;

@@ -79,8 +79,8 @@ This CocoaPods library helps you perform spending sample notification.
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
-  spec.source       = { :git => "https://github.com/Azharhussain20/CleverDemo.git", :tag => "#{spec.version}" }
+  #{ :git => "https://github.com/kevinrandrup/DropDownMenu.git", :commit => "0d6761feefccff1f7d8b7c7788ceb8e9cd1314ea" }
+  spec.source       = { :git => "https://github.com/Azharhussain20/CleverDemo.git", :tag => "#{spec.version}", :commit => "061d7a94e70b70af65c90f31d67f61c1206086db" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,8 @@ This CocoaPods library helps you perform spending sample notification.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "CleverDemo/**/*.{h,m,swift}"
+spec.source_files = "CleverPush/CleverPush/**/*"  
+# spec.source_files  = "CleverDemo/**/*.{h,m,swift}"
   spec.exclude_files = "CleverDemo/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
